@@ -1,5 +1,5 @@
-import telebot
-from telebot import types
+import pyTelegramBotAPI as telebot
+from pyTelegramBotAPI import types
 from random import randrange
 
 bot = telebot.TeleBot('1523718358:AAEkc6Kbq2cUz_JO3xMj5cMFUEYQd3CNv8Y')
