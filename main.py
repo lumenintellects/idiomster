@@ -15,7 +15,7 @@ def start(message):
         keyboard.add(key_get)
         bot.send_message(message.from_user.id, text='Press button to get a random idiom', reply_markup=keyboard)
     else:
-        message_id = randrange(125)
+        message_id = randrange(150)
         print(message_id)
         bot.forward_message(message.from_user.id, from_chat_id, message_id)
 
